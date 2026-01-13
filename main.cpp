@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     float length = 22; // actual max x
     float width  = 20; // actual max y
-    float step   = 40;
+    float step   = 80;
     float maxDist = 1;
 
     vector<wall> walls = {

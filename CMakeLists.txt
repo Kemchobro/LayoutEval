@@ -1,9 +1,11 @@
-cmake_minimum_required(VERSION 3.30)
-project(untitled)
+cmake_minimum_required(VERSION 3.16)
+project(eval)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_executable(untitled main.cpp
-        wall.cpp
-        wall.h
+add_executable(eval
+    main.cpp
+    wall.cpp
 )

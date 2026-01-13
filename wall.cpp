@@ -7,6 +7,7 @@
 #include <iostream>
 #include <vector>
 #include <tuple>
+#include <cmath>
 
 wall::wall(tuple<float, float> a, tuple<float, float> b, float wallLength, float max) {
     start = a;
